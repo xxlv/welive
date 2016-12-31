@@ -1,0 +1,19 @@
+<!--live.wxml-->
+
+<view class="live-title">
+    <view  bindtap="bindViewTap" class="userinfo">
+        <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+        <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+        <text> 正在聆听中....</text>
+    </view>
+</view>
+
+<view class='live-stream'>
+    <view wx:for="{{liveData}}" wx:for-index="idx" wx:for-item="live" class="live-item">
+        <view class="live-head">
+            <text class="live-nick">{{live.nick}}</text>
+            <text class="live-date">({{live.date}})</text>
+        </view>
+        <text class="live-msg"> {{live.message}}</text>
+  </view>
+</view>

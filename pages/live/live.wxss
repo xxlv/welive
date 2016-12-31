@@ -1,0 +1,41 @@
+/**live.wxss**/
+
+
+
+.userinfo-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+
+.live-stream{
+    font-size:10px;
+}
+.live-title{
+    color: #aaa;
+}
+.live-item{
+    border:1px;
+    padding:15px;
+
+}
+.live-head{
+    display:block;
+    margin-bottom:13px;
+}
+.live-nick{
+    color:green;
+    padding-right:3px;
+}
+
+.live-date{
+    color:gray;
+    font-size:10px;
+}
+.live-msg{
+    color:blue
+}
