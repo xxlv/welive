@@ -9,7 +9,7 @@
 </view>
 
 <view class='live-stream'>
-    <view wx:for="{{liveData}}" wx:for-index="idx" wx:for-item="live" class="live-item">
+    <view wx:for="{{liveData}}" wx:for-index="idx" wx:for-item="live" wx:key="*this" class="live-item">
         <view class="live-head">
             <text class="live-nick">{{live.nick}}</text>
             <text class="live-date">({{live.date}})</text>
